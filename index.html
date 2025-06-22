@@ -5,6 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Intel: Sustainability Through the Ages</title>
   <link rel="stylesheet" href="style.css" />
+  <link id="bootstrap-css" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+  <!-- Bootstrap Icons CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
 </head>
 <body>
 
@@ -41,7 +46,7 @@
         <h2>1968</h2>
         <h3>Intel Founded</h3>
         <div class="milestone-img-wrapper">
-          <img src="img/1.jpg" alt="Placeholder Image" />
+          <img src="img/1.jpg" alt="Intel chip 1968" />
           <div class="milestone-overlay">
             Robert Noyce and Gordon Moore rename the newly formed company 
             NM Electronics to Intel Corporation, laying the foundation for 
@@ -55,7 +60,7 @@
         <h2>1971</h2>
         <h3>First Microprocessor</h3>
         <div class="milestone-img-wrapper">
-          <img src="img/2.jpg" alt="Placeholder Image" />
+          <img src="img/2.jpg" alt="Intel chip 1971" />
           <div class="milestone-overlay">
             Intel debuts the 4004, the world's first commercial microprocessor, 
             igniting the microprocessor revolution and propelling the future 
@@ -69,7 +74,7 @@
         <h2>1978</h2>
         <h3>8086 Processor</h3>
         <div class="milestone-img-wrapper">
-          <img src="img/3.jpg" alt="Placeholder Image" />
+          <img src="img/3.jpg" alt="Intel chip 1978" />
           <div class="milestone-overlay">
             Launch of the 8086 processor, establishing the x86 architecture 
             that drives countless PCs and servers in the modern era.
@@ -82,7 +87,7 @@
         <h2>1985</h2>
         <h3>386 Processor</h3>
         <div class="milestone-img-wrapper">
-          <img src="img/4.jpg" alt="Placeholder Image" />
+          <img src="img/4.jpg" alt="Intel chip 1985" />
           <div class="milestone-overlay">
             Intel introduces the 386 processor with 32-bit architecture, 
             ushering in a new era of performance and multitasking for 
@@ -164,6 +169,106 @@
     </div>
   </section>
   <p>Scroll to view timeline | Hover over cards to learn more!</p>
+
+  <!-- 3-Column Content Section using Bootstrap grid -->
+  <section class="container my-5">
+    <!-- Bootstrap row for columns -->
+    <div class="row align-items-stretch">
+      <!-- Column 1 -->
+      <div class="col-12 col-md-4 mb-4 d-flex flex-column">
+        <div class="flex-grow-1 d-flex flex-column">
+          <h2><span class="bi bi-bar-chart-fill" aria-hidden="true"></span> RISE Strategy</h2>
+          <p>
+            Under its RISE (Responsible, Inclusive, Sustainable, Enabling) strategy, 
+            Intel sets ambitious 2030 goals, including driving industry-wide 
+            progress on climate action, water stewardship, and waste reduction.
+          </p>
+          <div class="mt-auto">
+            <!-- Learn More Button -->
+            <button type="button" class="btn btn-primary w-100 learn-more-btn" data-title="RISE Strategy" data-content="Under its RISE (Responsible, Inclusive, Sustainable, Enabling) strategy, Intel introduced a bold vision for 2030 and beyond. The strategy focuses on driving industry-wide progress in areas like climate action, water stewardship, and waste reduction. Through RISE, Intel is working to ensure ethical business practices, promote diversity and inclusion, reduce its environmental footprint, and use its technology to create a positive global impact. Key goals include achieving 100% renewable energy in global operations, becoming net positive in water use, sending zero waste to landfill, and improving representation in leadership. RISE reflects Intel’s commitment not just to sustainability, but to enabling others across the industry to do the same."><span class="bi bi-arrow-right-circle me-2"></span>Learn More</button>
+          </div>
+        </div>
+      </div>
+      <!-- Column 2 -->
+      <div class="col-12 col-md-4 mb-4 d-flex flex-column">
+        <div class="flex-grow-1 d-flex flex-column">
+          <h2><span class="bi bi-shield-check" aria-hidden="true"></span> Commitment</h2>
+          <p>
+            In 2022, Intel pledged to achieve net-zero greenhouse gas emissions 
+            (Scope 1 and 2) by 2040. This commitment builds on decades of 
+            environmental initiatives and partnerships across the semiconductor 
+            industry.
+          </p>
+          <div class="mt-auto">
+            <!-- Learn More Button -->
+            <button type="button" class="btn btn-primary w-100 learn-more-btn" data-title="Commitment" data-content="In 2022, Intel announced its commitment to achieve net-zero greenhouse gas emissions across its global operations (Scope 1 and 2) by 2040. This ambitious goal builds on Intel’s long-standing efforts to reduce its environmental impact through innovation, operational efficiency, and collaboration. The pledge includes major investments in clean energy, advanced manufacturing technologies, and carbon reduction strategies. Intel also continues to work with governments, suppliers, and industry partners to accelerate sustainable practices throughout the semiconductor ecosystem. This milestone reflects Intel’s belief that bold action is essential to addressing the climate crisis and shaping a more sustainable future."><span class="bi bi-arrow-right-circle me-2"></span>Learn More</button>
+          </div>
+        </div>
+      </div>
+      <!-- Column 3 -->
+      <div class="col-12 col-md-4 mb-4 d-flex flex-column">
+        <div class="flex-grow-1 d-flex flex-column">
+          <h2><span class="bi bi-droplet-half" aria-hidden="true"></span> Water &amp; Waste</h2>
+          <p>
+            Intel conserves billions of gallons of water annually and 
+            collaborates with local communities to restore watersheds.
+            Intel also upcycles and recycles materials to reduce waste and 
+            advance a circular economy.
+          </p>
+          <div class="mt-auto">
+            <!-- Learn More Button -->
+            <button type="button" class="btn btn-primary w-100 learn-more-btn" data-title="Water & Waste" data-content="Intel is committed to being a responsible steward of the planet’s resources by focusing heavily on water conservation and waste reduction. Each year, the company conserves billions of gallons of water through efficient manufacturing processes and reuses a significant portion within its operations. Beyond conservation, Intel partners with local communities to fund and support projects that restore watersheds and improve regional water health. On the waste front, Intel emphasizes recycling and upcycling materials to reduce landfill use and promote a circular economy. These efforts are a key part of Intel’s broader sustainability strategy to minimize environmental impact and build a more sustainable future."><span class="bi bi-arrow-right-circle me-2"></span>Learn More</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Subscription Form (for future use) -->
+  <section>
+    <div class="container" style="max-width: 500px;">
+      <h2 class="text-center mb-4">Subscribe to our Newsletter</h2>
+      <form>
+        <!-- Name field -->
+        <div class="mb-3">
+          <label for="name" class="form-label fw-bold">Name</label>
+          <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+        </div>
+        <!-- Email field -->
+        <div class="mb-3">
+          <label for="email" class="form-label fw-bold">Email address</label>
+          <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+        </div>
+        <!-- Zip code field -->
+        <div class="mb-3">
+          <label for="zip" class="form-label fw-bold">Zip Code</label>
+          <input type="text" class="form-control" id="zip" placeholder="Enter your zip code" required>
+        </div>
+        <!-- Checkboxes -->
+        <div class="form-check mb-2">
+          <input class="form-check-input" type="checkbox" value="" id="updates">
+          <label class="form-check-label fw-bold" for="updates">
+            Send me Intel news and updates
+          </label>
+        </div>
+        <div class="form-check mb-3">
+          <input class="form-check-input" type="checkbox" value="" id="agree">
+          <label class="form-check-label fw-bold" for="agree">
+            I agree to Intel's privacy policy
+          </label>
+        </div>
+        <!-- Submit button -->
+        <button type="submit" class="btn btn-primary w-100">Subscribe</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Alert placeholder for Learn More pop-up -->
+  <div id="learnMoreAlert" class="alert alert-info alert-dismissible fade show d-none position-fixed top-0 start-50 translate-middle-x mt-3" role="alert" style="z-index: 2000; min-width: 300px; max-width: 90vw;">
+    <span id="learnMoreAlertContent">Info goes here.</span>
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+  </div>
+
   <!-- Add script for arrow scroll -->
   <script>
     // Scroll milestones left or right when arrow is clicked
@@ -176,7 +281,86 @@
         container.scrollBy({ left: scrollAmount, behavior: 'smooth' });
       }
     }
+
+    // List of RTL language codes
+    var rtlLangs = ['ar', 'he', 'fa', 'ur'];
+    // Function to update RTL/LTR mode
+    function updateDirection() {
+      var html = document.documentElement;
+      var lang = html.getAttribute('lang') || navigator.language || navigator.userLanguage || 'en';
+      lang = lang.split('-')[0]; // Use only the language part
+      var isRTL = rtlLangs.indexOf(lang) !== -1;
+      // Set dir attribute
+      html.setAttribute('dir', isRTL ? 'rtl' : 'ltr');
+      // Switch Bootstrap CSS
+      var bootstrapLink = document.getElementById('bootstrap-css');
+      if (isRTL) {
+        if (bootstrapLink) {
+          bootstrapLink.href = 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.rtl.min.css';
+        }
+      } else {
+        if (bootstrapLink) {
+          bootstrapLink.href = 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css';
+        }
+      }
+    }
+
+    // Initial direction update on page load
+    updateDirection();
+    // Listen for Google Translate changes (lang attribute changes)
+    var observer = new MutationObserver(updateDirection);
+    observer.observe(document.documentElement, { attributes: true, attributeFilter: ['lang'] });
+    // Also check every 2 seconds in case Google Translate changes without mutation
+    setInterval(updateDirection, 2000);
+
+    // Show Bootstrap alert for Learn More buttons
+    document.querySelectorAll('.learn-more-btn').forEach(function(btn) {
+      btn.addEventListener('click', function() {
+        var content = btn.getAttribute('data-content');
+        var alertBox = document.getElementById('learnMoreAlert');
+        var alertContent = document.getElementById('learnMoreAlertContent');
+        if (alertBox && alertContent) {
+          alertContent.innerText = content || 'More information goes here.';
+          alertBox.classList.remove('d-none');
+          // Auto-hide after 10 seconds
+          setTimeout(function() {
+            alertBox.classList.add('d-none');
+          }, 10000);
+        }
+      });
+    });
   </script>
+
+  <footer class="bg-light text-center text-dark mt-5 pt-4 pb-3 border-top">
+    <div class="container">
+      <div class="row mb-3">
+        <div class="col-12 col-md-8 mx-auto">
+          <nav class="mb-2">
+            <a href="#" class="mx-2 text-decoration-none text-dark">Company Overview</a>
+            <a href="#" class="mx-2 text-decoration-none text-dark">Contact</a>
+            <a href="#" class="mx-2 text-decoration-none text-dark">Intel Newsroom</a>
+            <a href="#" class="mx-2 text-decoration-none text-dark">Investors</a>
+            <a href="#" class="mx-2 text-decoration-none text-dark">Careers</a>
+            <a href="#" class="mx-2 text-decoration-none text-dark">Corporate Responsibility</a>
+            <a href="#" class="mx-2 text-decoration-none text-dark">Inclusion</a>
+            <a href="#" class="mx-2 text-decoration-none text-dark">Public Policy</a>
+          </nav>
+          <nav class="mb-2 small">
+            <a href="#" class="mx-1 text-decoration-none text-dark">Terms of Use</a>
+            <a href="#" class="mx-1 text-decoration-none text-dark">Trademarks</a>
+            <a href="#" class="mx-1 text-decoration-none text-dark">Cookies</a>
+            <a href="#" class="mx-1 text-decoration-none text-dark">Privacy</a>
+            <a href="#" class="mx-1 text-decoration-none text-dark">Supply Chain Transparency</a>
+            <a href="#" class="mx-1 text-decoration-none text-dark">Site Map</a>
+            <a href="#" class="mx-1 text-decoration-none text-dark">Recycling</a>
+          </nav>
+          <div class="mb-2 small">&copy; Intel Corporation</div>
+          <div class="small">
+            Intel technologies may require enabled hardware, software or service activation. No product or component can be absolutely secure. Your costs and results may vary. Performance varies by use, configuration, and other factors. Learn more at intel.com/performanceindex. See our complete legal Notices and Disclaimers. Intel is committed to respecting human rights and avoiding causing or contributing to adverse impacts on human rights. See Intel’s Global Human Rights Principles. Intel’s products and software are intended only to be used in applications that do not cause or contribute to adverse impacts on human rights.
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
 </body>
-</html>
 </html>

@@ -6,6 +6,14 @@
 }
 
 body {
+  overflow-x: hidden;
+}
+
+
+
+
+
+body {
   font-family: Arial, sans-serif;
   line-height: 1.5;
   background-color: #e6f0fa; /* Light Intel blue background */
@@ -46,7 +54,7 @@ header p {
   display: flex;
   gap: 24px;
   overflow-x: auto;
-  padding: 40px 84px; /* Add equal left/right padding for even spacing */
+  padding: 40px 30px; /* Add equal left/right padding for even spacing */
   scroll-snap-type: x proximity; /* Snap to cards when scrolling horizontally */
   scroll-behavior: smooth;       /* Smooth scrolling for user experience */
   background: #f4faff;        /* Very light blue for timeline background */
@@ -54,7 +62,7 @@ header p {
 
 .milestone {
   flex: 0 0 auto;
-  width: 22vw;                  /* Show about 4 cards at a time on desktop */
+  width: 28vw;                  /* Show about 4 cards at a time on desktop */
   min-width: 220px;
   max-width: 340px;
   background-color: #fff;
@@ -144,6 +152,9 @@ body > p {
   margin-top: 20px;
   color: #0071c5; /* Intel blue for scroll message */
 }
+
+
+
 
 /* Arrow indicators for horizontal scroll */
 .milestone-arrows {
